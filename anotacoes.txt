@@ -1,4 +1,5 @@
- SOFTWARE
+(figma)
+SOFTWARE
   - Conjunto de Instruções
   - Dados
   - Documentação
@@ -13,7 +14,16 @@
   - Software de inteligêngia artificial - solucionar problemas complexos que não são possíveis de computação ou de análise direta
   - Software legado - desenvolvido décadas atrás 
 
-  ENGENHARIA 
-    - Comunicação - Características / Requisitos 
-      -   
+  ENGENHARIA - É a organização de um processo para a construção de um produto
+
+    - Comunicação   -> Características / Requisitos
+      - Planejamento  -> Custo / Tempo / *protótipo
+        - Projeto       -> U.M.l.                            = Qualidade -> Teste / Gerência 
+          - Construção    -> Criando código                  
+            - Entrega       -> Documentação / Manutenção    
+
+ Metodologia ou Ciclo de Vida - Desenvolvimento de Software 
+
+ 
+ 
 
