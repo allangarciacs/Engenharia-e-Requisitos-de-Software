@@ -1,5 +1,3 @@
-## Área de Ciências Tecnológicas  
-
 ---
 
 # Lista de Exercícios I - Softwares / Engenharia de Software
