@@ -1,6 +1,4 @@
 ## Área de Ciências Tecnológicas  
-**Disciplina de Engenharia de Software**  
-**Lista de Exercícios I**
 
 ---
 
