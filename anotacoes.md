@@ -32,7 +32,7 @@ Atributos encontrados em Webapps
 - Orientação de dados: Usar hipermidias para apresentar textos, mídias, audios, gráficos, etc para o usuário
 - Imediatismo: Colocar o software no mercado o mais rápido possível
 - Estética: Uma das principais características é o visual do Webapp
-<\pre>
+</pre>
 
 ## ENGENHARIA DE SOFTWARE 
 <pre>
