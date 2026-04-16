@@ -45,11 +45,14 @@ A engenahria de software é uma tecnologia em camadas
 . Foco na qualidade . 
 
 1 - FOCO NA QUALIDADE: É a pedra fundamental que sustenta a engenharia de software.
-2 - PROCESSO: Conjunto de atividades, ações e tarefas na criação de algum produto de trabalho. No contexto de engenharia de software, é uma abordagem adaptável que permite o pessoal da equipe realizar o trabalho e escolher o conjunto certo de ações e tarefas. Visa entregar o software dentro do prazo e com qualidade. 
-  - atividade: objetivo amplo
-  - ação     : conjunto de tarefas que resultam num artefato de software
-  - tarefa   : objetivo pequeno, porém bem definido
-3 - MÉTODOS: Fornecem as informações técnicas para desenvolver o software. Uma ampla gama de tarefas, que incluem comunicação, análise de requisitos, modelagem de projeto, contrução de programa, testes e suporte. São um conjunto de princípios básicos.
+2 - PROCESSO: Conjunto de atividades, ações e tarefas na criação de algum produto de trabalho. No contexto de engenharia de software,
+é uma abordagem adaptável que permite o pessoal da equipe realizar o trabalho e escolher o conjunto certo de ações e tarefas. Visa
+entregar o software dentro do prazo e com qualidade. 
+   - atividade: objetivo amplo
+   - ação     : conjunto de tarefas que resultam num artefato de software
+   - tarefa   : objetivo pequeno, porém bem definido
+3 - MÉTODOS: Fornecem as informações técnicas para desenvolver o software. Uma ampla gama de tarefas, que incluem comunicação,
+análise de requisitos, modelagem de projeto, contrução de programa, testes e suporte. São um conjunto de princípios básicos.
 4 - FERRAMENTAS: Fornecem o suporte automatizado ou semi automatizado para o processo e para os métodos. 
 
 PROCESSO DE SOFTWARE
@@ -81,7 +84,8 @@ Os sete principios da engenharia de software, por David Hooker
 <pre>
 É um roteiro que ajuda a criar um resultado de alta qualidade e dentro do prazo estabelecido.
 É realizado pelos engenheiros de software e os gerêntes do processo adaptam às suas necessidades.
-Importância: proporciona estabilidade, controle e organização para uma atividade, que sem controle, pode ser caótica. Contudo, ele deve ser ágil. 
+Importância: proporciona estabilidade, controle e organização para uma atividade, que sem controle, pode ser caótica. Contudo, ele
+deve ser ágil. 
 
 Modelo de processo genérico: 
 1. comunicação
@@ -97,38 +101,45 @@ FLUXO DE PROCESSO
  Parelelo     : Executa uma ou mais atividades em paralelo com outras (ex. modelagem paralelo c contrução)
 
 TIPOS DE MODELOS DE PROCESSO 
- V      : Garantia de qualidade. Testes depois de cada atividade
- CASCATA: Abordagem sequencial e sistemática com suporte contínuo do software concluído
-        - Problemas 
-          - Mudanças podem provocar confusão à medida que o projeto processegue
-          - Requer que o cliente estebelece explicitamente todas as necessidades (oq é difícil)
-          - Cliente precisa ter paciência, pois ira demorar pra ter versões operacionais para teste
-INCREMENTAL  : Combina fluxos lineares e paralelo, Aplica sequências lineares
-EVOLUCIONÁRIO: Tem características que permitem desenvolver versões cada vez mais completas do software.
-             - PROTOTIPAÇÃO:
-               Protótipo elaborado rapidamente, "projeto rápido", que servirá para aprimorar requisitos
-                - Problemas
-                - Exige que os engenheiros produzam os protótipos muito rapidamente, oq causa problemas
-                - Cliente pode não entender o que é um protótipo (n necessariamente organizado) e reclamar
-             - ESPIRAL:
-               Gera modelos de processos utilizados para guiar a engenharia.
-                - Problemas
-                - Difícil de convencer clientes (possível desconfiança na controle)
-                - Exige especialização na avaliação de riscos 
-                - Se um risco importante não for descoberto, inevitavelmente ocorrerão problemas
-             - CONCORRENTE: 
-               Possibilita a equipe representar elementos concorrentes e iterativos de qualquer modelo.
-               As atividades coexistem concorrendo entre si (estão em diferentes estados)
+ INCREMENTAL: Combina fluxos lineares e paralelo, Aplica sequências lineares
+ V          : Garantia de qualidade. Testes depois de cada atividade
+ CASCATA    : Abordagem sequencial e sistemática com suporte contínuo do software concluído
+  - Problemas 
+   -> Mudanças podem provocar confusão à medida que o projeto processegue
+   -> Requer que o cliente estebelece explicitamente todas as necessidades (oq é difícil)
+   -> Cliente precisa ter paciência, pois ira demorar pra ter versões operacionais para teste
+  
+ EVOLUCIONÁRIO: Tem características que permitem desenvolver versões cada vez mais completas do software.
+  -> PROTOTIPAÇÃO:
+     Protótipo elaborado rapidamente, "projeto rápido", que servirá para aprimorar requisitos
+     - Problemas
+      -> Exige que os engenheiros produzam os protótipos muito rapidamente, oq causa problemas
+      -> Cliente pode não entender o que é um protótipo (n necessariamente organizado) e reclamar
+  -> ESPIRAL:
+     Gera modelos de processos utilizados para guiar a engenharia.
+     - Problemas
+      -> Difícil de convencer clientes (possível desconfiança na controle)
+      -> Exige especialização na avaliação de riscos 
+      -> Se um risco importante não for descoberto, inevitavelmente ocorrerão problemas
+  -> CONCORRENTE: 
+     Possibilita a equipe representar elementos concorrentes e iterativos de qualquer modelo.
+     As atividades coexistem concorrendo entre si (estão em diferentes estados)
 
 MODELOS DE PROCESSO ESPECIALIZADOS
- DESENVOLVIMENTO BASEADO EM COMPONENTES          : Incorpora características do modelo espiral. É evolucionário por natureza, demandando abordagem     iterativa para a criação do software. 
- MODELO DE MÉTODOS FORMAIS                       : Engloba um conjunto de atividades que conduzem à especificação matemática formal do software. Métodos permitem especificar, desenvolver e verificar um sistema baseado em computador atravéz da aplicação de uma notação matemática rigorosa. 
- DESENVOLVIMENTO DE SOFTWARE ORIENTADO A ASPECTOS: AOSD -> é um paradigma de engenharia de software relativamente novo que oferece uma abordagem metodológica e de processos para definir, projetar e contruir aspectos.
+ -> DESENVOLVIMENTO BASEADO EM COMPONENTES: Incorpora características do modelo espiral. É evolucionário por natureza,
+demandando abordagem iterativa para a criação do software. 
+ -> MODELO DE MÉTODOS FORMAIS: Engloba um conjunto de atividades que conduzem à especificação matemática formal do
+software. Métodos permitem especificar, desenvolver e verificar um sistema baseado em computador atravéz da aplicação
+de uma notação matemática rigorosa. 
+ -> DESENVOLVIMENTO DE SOFTWARE ORIENTADO A ASPECTOS: AOSD -> é um paradigma de engenharia de software relativamente
+novo que oferece uma abordagem metodológica e de processos para definir, projetar e contruir aspectos.
 
 PROCESSO UNIFICADO 
- É uma tentativa de aproveitar os melhores recursos e características dos modelos tradicionais de processo de software, mas caracterizando-os de modo a implementar muitos dos melhores principios do desenvolvimento de software.  
+ É uma tentativa de aproveitar os melhores recursos e características dos modelos tradicionais de processo de software,
+mas caracterizando-os de modo a implementar muitos dos melhores principios do desenvolvimento de software.  
 </pre>
-  
+
+
 ## ENGENHARIA DE REQUISITO
 <pre>
 Tipos de Requisito
@@ -137,7 +148,81 @@ Tipos de Requisito
   - Normativos    - Dois tipos: 1 - Normas dentro da lei
                                 2 - Normas criadas por 'você'
 
-STAKEHOLDERS - pessoas, grupos ou organizações que influenciam ou são influenciadas pelo produto/projeto - positiva ou negativamente em qualquer uma das fases.
+## DESENVOLVIMENTO ÁGIL
+<pre>
+Combina filosofia e princípios de desenvolvimento, focando na forma como o software é criado.
+
+EXTREME PROGRAMMING (XP)
+É um método ágil criado por Kent Beck, focado em simplicidade
+ - Utiliza o princípio KIS (Keep It Simple)
+Envolve as seguintes atividades:
+ Planejamento: levantamento de requisitos por meio de histórias de usuário
+ Projeto     : criação de soluções simples e adaptáveis
+ Codificação : desenvolvimento baseado em testes e programação em dupla
+ Testes      : uso de testes automatizados e testes definidos pelo cliente
+
+SCRUM
+É um método ágil baseado em ciclos curtos chamados sprints
+ - Foi criado por Jeff Sutherland e Ken Schwaber
+Possui os seguintes elementos:
+ Backlog         : lista de tarefas priorizadas
+ Sprint          : período de desenvolvimento de 1 a 4 semanas
+ Reuniões diárias: acompanhamento do progresso da equipe
+ Scrum Master    : responsável por facilitar o processo
+ Demos           : apresentação do software ao cliente
+
+DSDM (Dynamic Systems Development Method)
+É um método ágil baseado em desenvolvimento iterativo e incremental
+ - Utiliza o princípio de Pareto (80/20) 
+ - Tem como foco entregar valor de forma rápida ao cliente
+Suas fases incluem:
+ - Estudo de viabilidade
+ - Estudo do negócio
+ - Iterações de desenvolvimento
+ - Implementação
+
+FDD (Feature Driven Development)
+É um método baseado no desenvolvimento por funcionalidades
+ - Cada funcionalidade é pequena e pode ser entregue rapidamente
+Suas vantagens incluem:
+ - Facilidade de entendimento pelo cliente
+ - Melhor organização do projeto
+ - Entregas frequentes
+Exemplos de funcionalidades:
+ - Adicionar produto ao carrinho
+ - Mostrar detalhes de produto
+
+DEVOPS
+Integra desenvolvimento e operações para melhorar o processo de entrega
+- Tem foco em automação e entrega contínua
+Envolve etapas como:
+ - Planejamento
+ - Codificação
+ - Compilação
+ - Testes
+ - Lançamento
+ - Implantação
+ - Operação
+ - Monitoramento
+
+KANBAN
+É um método visual para gerenciamento de tarefas
+Seus principais elementos são:
+ Backlog : lista de tarefas pendentes
+ Workflow: etapas do processo
+ WIP     : limite de tarefas em andamento
+ Cartões : representam as tarefas
+Seus benefícios incluem:
+ Melhor visualização do trabalho
+ Identificação de gargalos
+ Melhor fluxo de tarefas
+Suas desvantagens incluem:
+ Menor foco em prazos
+ Dependência da disciplina da equipe   
+</pre>
+   
+STAKEHOLDERS - pessoas, grupos ou organizações que influenciam ou são influenciadas pelo produto/projeto - positiva ou negativamente
+em qualquer uma das fases.
   
 - CONCEPÇÃO     -> Entender o problema e o objetivo do sistema em alto nível. Indentificar os stakeholders, contexto e restrições
  - LEVANTAMENTO  -> Descobrir requisitos com os stakeholders e fontes de informação
@@ -147,6 +232,8 @@ STAKEHOLDERS - pessoas, grupos ou organizações que influenciam ou são influen
      - VALIDAÇÃO     -> Checar se o requisito foi feito da forma correta, revisão com stakeholder, protótipos e testes de verificação
       - GERENCIAMENTO -> Controlar mudanças, versionar e rastrear requisitos, monitorar status e manter o sistema atualizado  
 </pre>
+
+
 
  
  
