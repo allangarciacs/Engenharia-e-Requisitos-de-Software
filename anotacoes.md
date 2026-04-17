@@ -46,8 +46,8 @@ A engenahria de software é uma tecnologia em camadas
 
 1. FOCO NA QUALIDADE: É a pedra fundamental que sustenta a engenharia de software.
 2. PROCESSO: Conjunto de atividades, ações e tarefas na criação de algum produto de trabalho. No contexto de engenharia de software
-, é uma abordagem adaptável que permite o pessoal da equipe realizar o trabalho e escolher o conjunto certo de ações e tarefas. Visa
-entregar o software dentro do prazo e com qualidade. 
+, é uma abordagem adaptável que permite o pessoal da equipe realizar o trabalho e escolher o conjunto certo de ações e tarefas.
+Visa entregar o software dentro do prazo e com qualidade. 
 - atividade : objetivo amplo
 - ação      : conjunto de tarefas que resultam num artefato de software
 - tarefa    : objetivo pequeno, porém bem definido
@@ -150,10 +150,10 @@ Combina filosofia e princípios de desenvolvimento, focando na forma como o soft
 EXTREME PROGRAMMING (XP) - É um método ágil criado por Kent Beck, focado em simplicidade
 - Utiliza o princípio KIS (Keep It Simple)
 Envolve as seguintes atividades:
-- Planejamento : levantamento de requisitos por meio de histórias de usuário
-- Projeto      : criação de soluções simples e adaptáveis
-- Codificação  : desenvolvimento baseado em testes e programação em dupla
-- Testes       : uso de testes automatizados e testes definidos pelo cliente
+- Planejamento     : levantamento de requisitos por meio de histórias de usuário
+- Projeto          : criação de soluções simples e adaptáveis
+- Codificação      : desenvolvimento baseado em testes e programação em dupla
+- Testes           : uso de testes automatizados e testes definidos pelo cliente
 
 SCRUM - É um método ágil baseado em ciclos curtos chamados sprints
 Foi criado por Jeff Sutherland e Ken Schwaber. Possui os seguintes elementos:
@@ -194,18 +194,15 @@ Tem foco em automação e entrega contínua. Envolve etapas como:
 
 KANBAN - É um método visual para gerenciamento de tarefas
 Seus principais elementos são:
-- Backlog  : lista de tarefas pendentes
-- Workflow : etapas do processo
-- WIP      : limite de tarefas em andamento
-- Cartões  : representam as tarefas
-Vantagens  :
-- Melhor visualização do trabalho
-- Identificação de gargalos
+- Backlog          : lista de tarefas pendentes
+- Workflow         : etapas do processo
+- WIP              : limite de tarefas em andamento
+- Cartões          : representam as tarefas
+Vantagens:                                               Desvantagens:
+- Melhor visualização do trabalho                        - Menor foco em prazos
+- Identificação de gargalos                              - Dependência da disciplina da equipe  
 - Melhor fluxo de tarefas
-Desvantagens :
-- Menor foco em prazos
-- Dependência da disciplina da equipe  
-   
+  
 </pre>
    
 ## ENGENHARIA DE REQUISITO
