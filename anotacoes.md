@@ -263,3 +263,20 @@ TIPOS DE REQUISITO
                              -> 2 - Normas criadas por 'você'
    
 </pre>
+
+## MODELO DE CASO DE USO
+<pre>
+Diegrama de caso de uso
+ - Modelos funcionais do sistema e quem interaje com eles
+
+Diagrama de atividade
+ . Nó inicial
+ . Nó final
+   
+ -  Ação ou atividade
+ -> Fluxo
+ .  Decisão
+
+
+
+   
