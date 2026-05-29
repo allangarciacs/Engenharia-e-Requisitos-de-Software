@@ -264,18 +264,121 @@ TIPOS DE REQUISITO
    
 </pre>
 
+## DIAGRAMA DE ATIVIDADE
+<pre>
+CONCEITOS
+- Diagrama comportamental -> fluxo de controle de uma atividade para outra
+- descrição de ações passo a passo
+- Atividade: descreve a implementação de um caso de uso
+- Ação: passo individual dentro de uma atividade
+FUNÇÃO
+- Capturar trabalhos que vão ser executados quando uma operação específica do sistema é disparada (ação)
+- Modelagem de fluxo de trabalho e processos
+ELEMENTOS
+- nó inicial: ponto de inicio
+- fluxo ou aresta: sequência de atividades
+- decisão: fluxo de entrada e vários de saída
+- intercalação: vários fluxos de entrada em uma única saída
+- fork: duas ou mais atividades são realizadas em paralelo
+- join: duas ou mais atividades se juntam para realizar uma nova tarefa
+- nó final: término da modelagem
+- partições: quem realiza cada ação
+- sinais ou flags: mensagens
+- final de fluxo: parte da atividade que termina, porém a modelagem prossegue
+
+DIAGRAMA DE MÁQUINA DE ESTADO
+- Diagrama comportamental: descreve a maneira que o sistema se comporta quando um evento ocorre
+- Estado que o objeto pode se encontrar dentro de uma execução dos processos de um sistema
+- Representa o ciclo de vida de um objeto
+- Modela sistemas reativos
+- Ajuda na detcção de falhas lógicas
+- Documenta regras de negócio
+- Completa outros diagrmas UML
+ELEMENTOS:
+- estado simples: retângulo
+- estado incial
+- estado final
+- transição: seta
+  . trigger
+  . condição de guarda: valor lógico que precisa ser verdade para que ocorra a transição depois do trigger
+  . action: atividade executada depois da transição
+- Estado: entry, do, exit
+- decisão
+- junção: conecta transições
+- fork: divisão de uma transição em fluxos simultâneos
+- join: sicronização de várias transições concorrente em um único estado
+</pre> 
+
 ## MODELO DE CASO DE USO
 <pre>
-Diegrama de caso de uso
- - Modelos funcionais do sistema e quem interaje com eles
-
-Diagrama de atividade
- . Nó inicial
- . Nó final
+É um modelo de análise que representa um refinamento dos requisitos funcionais do sistema em desenvolvimento
+RELACIONAMENTOS
+   - comunicação: a qual caso e uso o ator está relacionado
+   - inclusão: descreve cenários que são compartilhados por diferentes casos de uso
+   - extensão: juntar situações em que sequências diferentes podem resultar no mesmo caso de uso
+   - extensão: comportamento eventual de um caso de uso tiver de ser descrito
+   - generalização: dois ou mais casos de uso ou atores
    
- -  Ação ou atividade
- -> Fluxo
- .  Decisão
+DIAGRAMA DE CASO DE USO
+- Modelos funcionais do sistema e quem interaje com eles
+- Representa cenários que o sistema interage com pessoas
+ELEMENTOS: 
+   . Balão: caso de uso
+   . pessoa: ator
+   . caixa: limite do sistema (cenário)
+RELAÇÕES:
+   . associação: linha entre atores e casos de uso
+   . generalização: seta entre atores ou casos de uso
+   . inclusão: sequência de interações obrigatórias entrar casos de uso (seta lado direito)
+   . extensão: sequencia de interações opcionais entre casos de uso (seta lado esquerdo)
+USADO PARA:
+- coplementar um caso de uso descrito em texto
+- representar metas de iterações entre sistemas e usuários
+- definir e organizar requisitos funcionais do sistema
+- modelar fluxo básico de eventos
+
+DIAGRAMA DE CLASSES
+- Representa a estrutura estática de classes no sistema, definir atributos, operações e relacionamentos entre classes
+- Representação de item do mundo real, físico ou abstrato
+- Estrutura interna, chamadas de atributos e métodos
+   . atributos: armazenam dados dos objetos de uma classe (int, double, String)
+   . métodos: operações que a instância de uma classe pode executar (metodo())
+   . intância: objeto
+- Representado pelo compartimentos nome, atributo e operações
+VISIBILIDADE DE ATRIBUTOS E MÉTODOS:
+   . +público
+   . #protegido
+   . -privado
+   . ~pacote
+   . /derivado
+- Associação: relacionamentos formados entre objetos durante a execução do sistema (linha ligando classes)
+MULTIPLICIDADE:
+- pode ser de três tipos  |DE UM LADO             |DE OUTRO
+   . muitos pra muitos    (0..1 ou 1         ----- 0..1 ou 1)
+   . um pra muitos        (0..1 ou 1         ----- * ou 1..* ou 0..*)
+   . um pra um            (* ou 1..* ou 0..* ----- * ou 1..* ou 0..*)
+   
+PARTICIPAÇÃO:
+- multiplicidade = 1  === participação obrigatória
+- multiplicidade != 1 === participação opcional
+nome: fica no meio e descreve o que vai acontecer entre as classes
+
+CLASSES ASSOCIATIVAS:
+- Aparecem quando duas ou mais classes estão associadas e é preciso manter informação dessa associação (recorrente me associoações mtos para mtos)
+TIPOS: 
+. Associações ternárias: associação de três objetos diferentes (símbolo do diamente entre eles)
+. Associações relexivas ou autoassociação: liga objetos da mesma classe
+. Agregação: linha q conecta classes relacionadas com um diamente branco perto da classe que representa o todo (itens de existência indepente)
+. Composição: linha que junta classes realcionadas com um diamente preto
+. Herança: flecha que sai da subclasse em direção a superclasse
+   - transitividade
+   - assimetria
+
+MODELO DE DOMÍNIO
+- Representação visual de classes conceituais 
+- Não são definidas operações  
+</pre>
+
 
 
 
