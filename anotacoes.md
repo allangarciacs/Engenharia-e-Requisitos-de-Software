@@ -376,7 +376,24 @@ TIPOS:
 
 MODELO DE DOMÍNIO
 - Representação visual de classes conceituais 
-- Não são definidas operações  
+- Não são definidas operações 
+</pre>
+## EM RESUMO
+<pre>
+Diagrama de Atividade
+Mostra o fluxo de ações/processos de um sistema (tipo fluxograma).
+
+Diagrama de Máquina de Estado
+Mostra os estados de um objeto e como ele muda.
+
+Modelo / Diagrama de Caso de Uso
+Mostra como o usuário interage com o sistema.
+
+Diagrama de Classes
+Mostra a estrutura do sistema.
+
+Modelo de Domínio
+Representa as classes conceituais do negócio.
 </pre>
 
 
